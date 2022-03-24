@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2022-03-18 15:06:47
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2022-03-23 18:19:40
+ * @LastEditTime: 2022-03-24 17:52:26
 -->
 <template>
   <div class="header">
@@ -116,12 +116,16 @@ export default defineComponent({
         border-radius: 50%;
       }
       .ancientPoetry {
+        font-family: "楷体","楷体_GB2312";
+        font-size: 16px;
         color: black;
         background: rgba(255, 255, 255, 0.3);
         padding: 3px 10px;
         border-radius: 2px;
         margin-top: 10px;
-        background-image: linear-gradient(135deg, red, rgb(85, 255, 0));
+        background-image: linear-gradient(135deg, rgb(0, 0, 0), rgb(255, 2, 2));
+        // background-image: linear-gradient(135deg, rgb(255, 0, 0), #0bf67d);
+        // background-image: linear-gradient(135deg, #0C7BB3, #F2BAE8);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;

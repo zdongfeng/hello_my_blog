@@ -3,31 +3,16 @@
  * @Author: zhaodongfeng
  * @Date: 2022-03-18 14:38:27
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2022-03-23 18:38:20
+ * @LastEditTime: 2022-03-24 17:42:55
 -->
 <template>
     <banner />
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
-    <h2>1</h2>
+    <articleList />
 </template>
 
 <script setup>
 import Banner from './components/Banner.vue'
+import ArticleList from './components/ArticleList/index.vue'
 </script>
 
 <style lang='less'>

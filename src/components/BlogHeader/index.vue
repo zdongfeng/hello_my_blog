@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2022-03-24 00:05:54
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2022-03-24 14:50:13
+ * @LastEditTime: 2022-03-24 17:43:48
 -->
 <template>
   <div class="top" :class="bg ? 'fff' : '' ">
@@ -47,6 +47,7 @@ onMounted(()=>{
 
 <style lang="less" scoped>
 .top {
+  font-family: "楷体","楷体_GB2312";
   position: relative;
   width: 100%;
   height: 75px;
