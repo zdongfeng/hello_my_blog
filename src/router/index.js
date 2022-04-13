@@ -3,13 +3,14 @@
  * @Author: zhaodongfeng
  * @Date: 2022-03-18 10:48:00
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2022-03-24 14:02:17
+ * @LastEditTime: 2022-04-13 15:34:59
  */
 import {createRouter, createWebHistory } from 'vue-router'
 
 import Dashboard from '../views/dashboard/index.vue';
 import AboutBlog from '../views/aboutBlog/index.vue';
 import ArticleType from '../views/articleType/index.vue'
+import Article from '../views/article/index.vue'
 
 const routes = [
     {
@@ -17,7 +18,8 @@ const routes = [
         name: Dashboard,
         component: Dashboard,
         meta:{
-            title: '首页'
+            title: '首页',
+            isRoute: true
         }
     },
     {
@@ -25,7 +27,8 @@ const routes = [
         name: ArticleType,
         component: ArticleType,
         meta:{
-            title: '分栏'
+            title: '分栏',
+            isRoute: true
         }
     },
     {
@@ -33,7 +36,16 @@ const routes = [
         name: AboutBlog,
         component: AboutBlog,
         meta:{
-            title: '关于博客'
+            title: '关于博客',
+            isRoute: true
+        }
+    },
+    {
+        path: '/article/:id',
+        name: Article,
+        component: Article,
+        meta:{
+            title: '文章内容'
         }
     }
 ]

@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2022-03-18 15:06:47
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2022-03-24 17:52:26
+ * @LastEditTime: 2022-04-13 15:21:44
 -->
 <template>
   <div class="header">
@@ -149,6 +149,10 @@ export default defineComponent({
               width: 35px;
               padding: 6px;
               background: 0;
+              transition: all .2s;
+            }
+            img:hover{
+              transform: scale(1.2);  
             }
           }
         }

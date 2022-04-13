@@ -3,12 +3,12 @@
  * @Author: zhaodongfeng
  * @Date: 2022-03-24 00:05:54
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2022-03-24 17:43:48
+ * @LastEditTime: 2022-04-13 17:25:12
 -->
 <template>
   <div class="top" :class="bg ? 'fff' : '' ">
     <div class="typeBox">
-      <div class="typeTitle" v-for="item in routes">{{item.meta.title}}</div>
+      <div class="typeTitle" v-for="item in routes" @click="toPage(item)">{{item.meta.title}}</div>
     </div>
 
     <div class="topRight">
@@ -25,7 +25,13 @@ import router from '../../router/index'
 
 let bg = ref(false)
 let routes = ref([])
-routes.value = router.options.routes
+routes.value = router.options.routes.filter(v => v.meta.isRoute)
+
+const toPage = (item) => {
+  router.push({
+    path: item.path
+  })
+}
 onMounted(()=>{
   window.addEventListener('scroll', function (e) { 
       // 页面总高
@@ -52,9 +58,9 @@ onMounted(()=>{
   width: 100%;
   height: 75px;
   background: none;
-  transition: all 1s ease;
+  transition: all .6s ease;
   position: fixed;
-  z-index: 1099;
+  z-index: 100;
   top: 0;
   display: flex;
   text-align: center;

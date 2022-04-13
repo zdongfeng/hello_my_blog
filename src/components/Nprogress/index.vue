@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2022-03-23 09:59:29
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2022-03-24 11:33:13
+ * @LastEditTime: 2022-03-25 10:49:05
 -->
 <template>
   <div id="nprogress">
@@ -81,7 +81,7 @@ onMounted(()=>{
   background: #29d;
   transform: translate3d(-100%, 0px, 0px);
   position: fixed;
-  z-index: 1031;
+  z-index: 108;
   top: 0;
   left: 0;
 
@@ -108,7 +108,7 @@ onMounted(()=>{
 #nprogress .spinner {
   display: block;
   position: fixed;
-  z-index: 1031;
+  z-index: 108;
   top: 15px;
   right: 15px;
 }

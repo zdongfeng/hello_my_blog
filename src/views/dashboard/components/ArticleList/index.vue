@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2022-03-24 16:28:36
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2022-03-24 17:38:04
+ * @LastEditTime: 2022-03-25 10:56:12
 -->
 <template>
   <div class="articleList">
@@ -17,7 +17,7 @@
 </template>
 
 <script setup> 
-import {ref, defineComponent, onMounted} from 'vue'
+import {ref, onMounted} from 'vue'
     import ArticleItem from './ArticleItem.vue'
     let articleList = ref([1,2,3])
 </script>
