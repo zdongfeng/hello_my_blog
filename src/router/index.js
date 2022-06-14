@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2022-03-18 10:48:00
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2022-06-14 15:53:03
+ * @LastEditTime: 2022-06-14 15:56:00
  */
 import {createRouter, createWebHistory } from 'vue-router'
 
@@ -43,7 +43,7 @@ const routes = [
     {
         path: '/aboutMe',
         name: AboutMe,
-        component: AboutMe,
+        component: AboutBlog,
         meta:{
             title: '关于我',
             isRoute: true
