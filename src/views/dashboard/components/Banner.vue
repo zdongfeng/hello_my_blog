@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2022-03-18 15:06:47
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2022-04-13 15:21:44
+ * @LastEditTime: 2022-04-29 10:34:04
 -->
 <template>
   <div class="header">
@@ -14,10 +14,10 @@
         <div class="contact-me">
           <div class="contact-way">
             <div class="wechat contact-box">
-              <img @click="setweChatVisible(true)" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.1/source/images/sns/wechat.png" alt />
+              <img @click="setweChatVisible(true)" src="../../../assets/images/wx.svg" alt />
             </div>
             <div class="qq contact-box">
-              <img @click="setQQVisible(true)" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.1/source/images/sns/qq.png" alt />
+              <img @click="setQQVisible(true)" src="../../../assets/images/QQ.svg" alt />
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@ export default defineComponent({
   .figure {
     width: 100%;
     height: 100%;
-    background: url("https://qn.mrkang.vip/28_1627631977717.jpg");
+    background: url('../../../assets/images/home-page-background.jpg');
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;

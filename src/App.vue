@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2022-03-18 10:26:57
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2022-03-24 11:16:15
+ * @LastEditTime: 2022-04-29 10:11:26
 -->
 <template>
   <blogHeader></blogHeader>
@@ -21,7 +21,7 @@ body,
 #app {
   width: 100% !important;
   height: 100%;
-  cursor: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.1/source/cursor/normal.cur), auto;
+  /* cursor: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.1/source/cursor/normal.cur), auto; */
 }
 body {
   transition: background 1s;
