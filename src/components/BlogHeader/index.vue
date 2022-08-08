@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2022-03-24 00:05:54
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2022-04-13 17:25:12
+ * @LastEditTime: 2022-08-04 16:55:40
 -->
 <template>
   <div class="top" :class="bg ? 'fff' : '' ">
@@ -77,7 +77,7 @@ onMounted(()=>{
       height: 75px;
       line-height: 75px;
       font-size: 16px;
-      color: #555;
+      color: #222;
       font-weight: bolder;
     }
     .typeTitle:hover {
